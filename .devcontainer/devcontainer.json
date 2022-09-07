@@ -1,0 +1,26 @@
+{
+	"name": "Manim",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+
+	"customizations": {
+		"vscode": {
+			"settings": { 
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"workbench.colorTheme": "Community Material Theme High Contrast"
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"Rickaym.manim-sideview",
+				"Equinusocio.vsc-material-theme"
+			]
+		}
+	},
+
+	"features": {
+		"git": "latest"
+	}
+}
