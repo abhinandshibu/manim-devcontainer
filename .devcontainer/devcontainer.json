@@ -8,14 +8,15 @@
 	"customizations": {
 		"vscode": {
 			"settings": { 
-				"terminal.integrated.defaultProfile.linux": "zsh",
-				"workbench.colorTheme": "Community Material Theme High Contrast"
+				"terminal.integrated.defaultProfile.linux": "fish"
+				// "workbench.colorTheme": "Community Material Theme High Contrast"
 			},
 			"extensions": [
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"Rickaym.manim-sideview",
 				"Equinusocio.vsc-material-theme",
+				"GitHub.copilot-chat",
 				"analytic-signal.preview-mp4"
 			]
 		}
