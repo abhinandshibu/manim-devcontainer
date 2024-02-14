@@ -14,9 +14,9 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-python.vscode-pylance",
-				"Rickaym.manim-sideview",
-				"Equinusocio.vsc-material-theme",
-				"analytic-signal.preview-mp4"
+				// "Rickaym.manim-sideview",
+				// "Equinusocio.vsc-material-theme",
+				// "analytic-signal.preview-mp4"
 			]
 		}
 	},
