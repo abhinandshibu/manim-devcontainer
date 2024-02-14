@@ -1,11 +1,6 @@
 from manim import *
 
-
-
-class NumberLine(Scene):
-    # CONFIG{
-    #     # "fade_all":False
-    # }
+class NumberLineExample(Scene):
     def construct(self):
         l0 = NumberLine(
             x_range=[-10, 10, 2],
@@ -23,7 +18,7 @@ class NumberLine(Scene):
             font_size=24,
         )
         num6 = l1.numbers[8]
-        num6.set_color(RED)
+        num6.set_color(RED_D)
 
         l2 = NumberLine(
             x_range=[-2.5, 2.5 + 0.5, 0.5],
@@ -42,3 +37,5 @@ class NumberLine(Scene):
 
         line_group = VGroup(l0, l1, l2, l3).arrange(DOWN, buff=1)
         self.add(line_group)
+
+        
